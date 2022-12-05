@@ -63,7 +63,7 @@
 }
 
 .column-left{
-    background-color: lightblue;
+    background-color: #1f75fe;
     width: calc(100% / 3 * 2);
     border: 3px dashed black;
     border-left:3px dashed black ;
@@ -90,7 +90,7 @@
 }
 
 .column-left-2 {
-    background-color: lightblue;
+    background-color: #1f75fe;
     width: calc(100% / 3 * 2);
     border: 3px dashed black;
     border-left: 0px;   
@@ -125,13 +125,49 @@
 }
 
 .column-small{
-    background-color: lightblue;
+    background-color: #1f75fe;
     width: 25%;
     border-top: 3px dashed black;
     border-bottom: 3px dashed black;
     border-right: 3px dashed white;
    
 }
+
+.container-footer {
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;  
+    min-height: 50px;
+}
+
+.main-footer{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 1400px;
+    font-size: 30px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+   
+
+
+}
+
+.logo{
+    background-color: grey;
+    border:3px dashed black;
+    padding: 5px;
+}
+
+.bottone{
+    background-color: grey;
+    border: 3px dashed black;
+    padding: 5px;
+
+}
+
 
 
 
